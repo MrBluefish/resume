@@ -35,11 +35,11 @@ h1 {
     margin-right: 175px;
 }
 .email {
-    color: black;
+    color: rgb(50, 71, 147);
     margin-right: 3px;
 }
 .social {
-    color: black;
+    color: rgb(50, 71, 147);
     margin-left: 3px;
     margin-right: 12px;
     text-shadow: 4px;
@@ -64,3 +64,39 @@ ul {
     display: flex;
     flex-direction: row;
 }
+
+a:visited {
+    color: rgb(50, 71, 147);
+  }
+  
+  a:hover {
+      color: rgb(66, 89, 122);
+  }
+  
+  a:active {
+      color: yellow;
+    }
+
+.email:visited {
+    color: rgb(50, 71, 147);
+}
+      
+.email:hover {
+    color: rgb(66, 89, 122);
+}
+      
+.email:active {
+    color: yellow;
+}
+
+.social :visited {
+    color: rgb(50, 71, 147);
+}
+          
+.social :hover {
+    color: rgb(66, 89, 122);
+}
+          
+.social :active {
+    color: yellow;
+}        
