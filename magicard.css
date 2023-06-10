@@ -3,13 +3,13 @@ body {
 
 }
 .card {
- --background: linear-gradient(to left, #f7ba2b 0%, rgb(35, 48, 66) 100%);
- width: 190px;
+ --background: linear-gradient(to left, #595650 30%, rgb(142, 143, 144) 70%);
+ width: 600px;
  height: 254px;
  padding: 5px;
  border-radius: 1rem;
  overflow: visible;
- background: #f7ba2b;
+ background: #e8d7af;
  background: var(--background);
  position: relative;
  z-index: 1;
@@ -74,5 +74,17 @@ img {
 img:hover::after {
     opacity: 0;
 }
+
+a:visited {
+  color: rgb(50, 71, 147);
+}
+
+a:hover {
+    color: rgb(66, 89, 122);
+}
+
+a:active {
+    color: yellow;
+  }
 
 
